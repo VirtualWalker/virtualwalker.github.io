@@ -57,7 +57,7 @@ a:after {
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
- hr {
+hr {
     display: block;
     height: 1px;
     border: 0;
@@ -66,6 +66,10 @@ a:after {
     padding: 0;
 }
 
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
 
 /* ==========================================================================
    Wrap Sections
@@ -151,7 +155,6 @@ a:after {
 #c {
 	background: #222222;
 	padding-top: 15px;
-	text-align: right;
 }
 
 #c p {
